@@ -41,10 +41,12 @@ ul a:hover {
   color: #954804;
 }
 
-.section-hero {
-
-  padding: 5rem 10rem;
+.hero-section{
   background-color: #fdf2e9;
+}
+
+.section-hero {
+padding: 1.6rem 2.4rem;
 }
 
 .hero {
@@ -133,7 +135,10 @@ h1 {
   color: #eb984e;
 }
 
-
+.how-it-works{
+  position: relative;
+  padding:  2.4rem;
+}
 .how{
   font-size: 1.2rem;
   line-height: 2rem;
@@ -166,14 +171,73 @@ h1 {
  
 }
 
-.img-box img{
+.img-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+
+.how-it-works-img{
+  width: 40%;
+  z-index: 3;
+
+
+}
+
+.img-box:before{
+  content: "";
+  width: 60%;
+  padding-bottom: 60%;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+.img-box::after{
+  content: "";
   width: 50%;
+  padding-bottom: 50%;
+  border-radius: 50%;
+  background-color: #ffd8a8;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
 }
 
-.how-it-works{
-   margin: 9.6rem;
+
+.feautered-in{
+  padding: 1.6rem;
 }
 
-.headline-box{
-  margin: 1.2rem;
+
+
+.feautered-in-title{
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+
+ .logos img{
+width: 15%;
+filter: brightness(15%);
+opacity: 0.5;
+ }
+
+.logos{
+  display: flex ;
+  align-items: center;
+  justify-content: space-around;
+  
 }

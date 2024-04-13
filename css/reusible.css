@@ -59,13 +59,25 @@ Medium: 11px
 
 .grid{
     display: grid;
+    gap:3.2rem
 }
 
 .grid-2-cl{
     grid-template-columns: 1fr 1fr;
+}
+.grid-3-cl{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .center{
     justify-items: center;
     align-items: center;
 }
+
+
+.conteiner{
+width: 1300px;
+margin: 0 auto;
+
+}
+
