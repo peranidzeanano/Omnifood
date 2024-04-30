@@ -334,10 +334,13 @@ blockquote {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.gallery figure {
+  overflow: hidden;
+}
 
 .gallery figure img {
   width: 100%;
-  overflow: hidden;
+
   transition: 0.4s;
 }
 
