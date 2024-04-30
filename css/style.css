@@ -296,3 +296,51 @@ h1 {
   color: #d9480f;
   border-bottom: none;
 }
+
+.testemonial-section {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+}
+.testemonials {
+  padding: 9.6rem;
+  align-items: center;
+}
+
+.gallery {
+  padding: 4.8rem;
+}
+
+.testemonial img {
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+blockquote {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.testemonial-name {
+  font-size: 16px;
+  line-height: 26px;
+  color: #15143966;
+}
+
+.gallery {
+  display: grid;
+  gap: 1.2rem;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery figure img {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.gallery figure img:hover {
+  transform: scale(1.1);
+}
