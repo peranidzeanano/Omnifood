@@ -77,6 +77,7 @@ h1 {
 }
 
 .btn {
+  display: inline-block;
   padding: 15px 30px;
   border-radius: 0.5rem;
   font-weight: 600;
@@ -301,14 +302,11 @@ h1 {
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
+  margin-bottom: 4.8rem;
 }
 .testemonials {
   padding: 9.6rem;
   align-items: center;
-}
-
-.gallery {
-  padding: 4.8rem;
 }
 
 .testemonial img {
@@ -331,6 +329,7 @@ blockquote {
 .gallery {
   display: grid;
   gap: 1.2rem;
+  padding: 1.2rem 1.2rem 1.2rem 0;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -340,10 +339,116 @@ blockquote {
 
 .gallery figure img {
   width: 100%;
-
   transition: 0.4s;
 }
 
 .gallery figure img:hover {
   transform: scale(1.1);
+}
+.pricing {
+  margin-bottom: 4.8rem;
+}
+
+.plan {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.plan-started {
+  justify-self: end;
+  border: 4px solid #fdf2e9;
+  padding: 4.4rem;
+}
+.plan-complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan-complete::after {
+  content: "best value";
+  position: absolute;
+  top: 7%;
+  right: -12%;
+  text-transform: uppercase;
+  background-color: yellow;
+  border-radius: 9px;
+  padding: 0.8rem 3.6rem;
+  transform: rotate(45deg);
+
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.plan-text {
+  text-align: center;
+}
+.plan-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.12rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+  color: #cf711f;
+}
+.plan-price {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 0.75rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.plan-price span {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 0.75rem;
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: auto;
+}
+
+.taxes {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  margin-bottom: 4.8rem;
+  color: #7f7f7f;
+}
+
+.feautered-icons {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: #cf711f;
+  background-color: #fdf2e9;
+}
+
+.feautere-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.feautere-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 0.8rem;
 }

@@ -56,56 +56,57 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-
-.grid{
-    display: grid;
-    gap:3.2rem
+.grid {
+  display: grid;
+  gap: 3.2rem;
 }
 
-.grid-2-cl{
-    grid-template-columns: 1fr 1fr;
+.grid-2-cl {
+  grid-template-columns: 1fr 1fr;
 }
-.grid-3-cl{
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.center{
-    justify-items: center;
-    align-items: center;
+.grid-3-cl {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-.conteiner{
-width: 1300px;
-margin: 0 auto;
-
+.grid-4-cl {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.headline{
-    font-size: 1.2rem;
-    line-height: 2rem;
-    letter-spacing: 0.12rem;
-    color: #cd680f;
-  }
-  
-  .title{
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 2.4rem;
-  }
-  
-  .Vegetarian{
-    background-color: #b2f2bb;
-  }
+.center {
+  justify-items: center;
+  align-items: center;
+}
 
-  .Vegan{
-background-color: #d8f5a2;
-  }
+.conteiner {
+  width: 1300px;
+  margin: 0 auto;
+}
 
- .Paleo{
-    background-color: #ffd43b;
- }
-.icon{
-    font-size: 2rem;
-    color: #f76707;
+.headline {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.12rem;
+  color: #cd680f;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.Vegetarian {
+  background-color: #b2f2bb;
+}
+
+.Vegan {
+  background-color: #d8f5a2;
+}
+
+.Paleo {
+  background-color: #ffd43b;
+}
+.icon {
+  font-size: 2rem;
+  color: #f76707;
 }
