@@ -28,6 +28,7 @@ Paragraph default: 1.6
 #fae5d3
 #eb984e
 
+
 - Shades: 
 #cf711f
 #45260a
@@ -55,6 +56,83 @@ Medium: 11px
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+
+ul li:last-child a:link,
+ul li:last-child a:visited {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  background-color: #eb984e;
+  color: #fff;
+}
+ul a:link,
+ul a:visited {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.12rem;
+  color: rgb(48, 44, 44);
+}
+
+ul a:active,
+ul a:hover {
+  color: #954804;
+}
+
+.btns {
+  margin-bottom: 4.8rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+.btn-start:link,
+.btn-start:visited {
+  background-color: #eb984e;
+  color: #fdf2e9;
+}
+
+.btn-learn:link,
+.btn-learn:visited {
+  background-color: white;
+  font-weight: 600;
+  transition: 0.4s;
+  color: rgb(48, 44, 44);
+}
+.btn-learnt:active,
+.btn-learn:hover {
+  box-shadow: inset 0 0 3px #eb984e;
+  background-color: #fdf2e9;
+}
+
+.recepies-bnt:link,
+.recepies-bnt:visited {
+  color: #e8590c;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #adb5bd;
+  transition: 0.3s;
+}
+
+.recepies-bnt:hover,
+.recepies-bnt:active {
+  color: #d9480f;
+  border-bottom: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+}
 
 .grid {
   display: grid;
@@ -109,4 +187,8 @@ Medium: 11px
 .icon {
   font-size: 2rem;
   color: #f76707;
+}
+
+*:focus {
+  box-shadow: 5px 5px 5px rgba(81, 41, 15, 0.5);
 }

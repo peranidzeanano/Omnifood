@@ -17,26 +17,6 @@ body {
 .logo {
   width: 15%;
 }
-ul li:last-child a:link,
-ul li:last-child a:visited {
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  background-color: #eb984e;
-  color: #fff;
-}
-ul a:link,
-ul a:visited {
-  font-size: 1.4rem;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: 0.12rem;
-  color: rgb(48, 44, 44);
-}
-
-ul a:active,
-ul a:hover {
-  color: #954804;
-}
 
 .hero-section {
   background-color: #fdf2e9;
@@ -71,34 +51,6 @@ h1 {
   line-height: 2rem;
   letter-spacing: 0.12rem;
   margin-bottom: 4.8rem;
-}
-.btns {
-  margin-bottom: 4.8rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 15px 30px;
-  border-radius: 0.5rem;
-  font-weight: 600;
-}
-.btn-start:link,
-.btn-start:visited {
-  background-color: #eb984e;
-  color: #fdf2e9;
-}
-
-.btn-learn:link,
-.btn-learn:visited {
-  background-color: white;
-  font-weight: 600;
-  transition: 0.4s;
-  color: rgb(48, 44, 44);
-}
-.btn-learnt:active,
-.btn-learn:hover {
-  box-shadow: inset 0 0 3px #eb984e;
-  background-color: #fdf2e9;
 }
 
 .margin-right-sm {
@@ -256,7 +208,7 @@ h1 {
 }
 
 .title-card {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.8rem;
 }
 
@@ -266,36 +218,9 @@ h1 {
   gap: 0.8rem;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.list-item {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 1.4rem;
-}
-
 .recepies {
   text-align: center;
   padding: 1.8rem;
-}
-
-.recepies-bnt:link,
-.recepies-bnt:visited {
-  color: #e8590c;
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid #adb5bd;
-  transition: 0.3s;
-}
-
-.recepies-bnt:hover,
-.recepies-bnt:active {
-  color: #d9480f;
-  border-bottom: none;
 }
 
 .testemonial-section {
@@ -453,4 +378,69 @@ blockquote {
   font-size: 1.2rem;
   line-height: 2rem;
   margin-bottom: 0.8rem;
+}
+
+.form-section {
+  padding: 9.6rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(#eb984e, #cf711f);
+  overflow: hidden;
+  border-radius: 11px;
+}
+.cta-text-box {
+  padding: 4.8rem 3.6rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 3.6rem;
+}
+
+.cta-img {
+  background-image: linear-gradient(
+      rgba(235, 151, 78, 0.5),
+      rgba(207, 113, 31, 0.5)
+    ),
+    url("../img/eating.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.4rem;
+  row-gap: 1.6rem;
+}
+
+form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+form input,
+form select {
+  width: 400px;
+  padding: 1.2rem;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+.btn {
+  align-self: end;
+  background-color: #51290f;
+  color: #fdf2e9;
+  padding: 1.4rem;
+}
+
+form input:focus,
+form select:focus {
+  box-shadow: 5px 5px 5px rgba(253, 242, 233, 0.5);
 }
