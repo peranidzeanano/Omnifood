@@ -57,15 +57,15 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-ul li:last-child a:link,
-ul li:last-child a:visited {
+header ul li:last-child a:link,
+header ul li:last-child a:visited {
   padding: 0.4rem 0.8rem;
   border-radius: 5px;
   background-color: #eb984e;
   color: #fff;
 }
-ul a:link,
-ul a:visited {
+header ul a:link,
+header ul a:visited {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 2rem;
@@ -92,6 +92,8 @@ ul a:hover {
 .btn-start:visited {
   background-color: #eb984e;
   color: #fdf2e9;
+  font-size: 1.4rem;
+  transition: 0.4s;
 }
 
 .btn-learn:link,
@@ -99,6 +101,7 @@ ul a:hover {
   background-color: white;
   font-weight: 600;
   transition: 0.4s;
+  font-size: 1.4rem;
   color: rgb(48, 44, 44);
 }
 .btn-learnt:active,

@@ -145,6 +145,11 @@ h1 {
   z-index: 2;
 }
 
+.decription {
+  font-size: 1.6rem;
+  color: #333;
+}
+
 .feautered-in {
   padding: 1.6rem;
 }
@@ -275,7 +280,7 @@ blockquote {
 }
 
 .plan {
-  width: 60%;
+  width: 50%;
   height: 100%;
   padding: 4.8rem 1.8rem;
   display: flex;
@@ -443,4 +448,85 @@ form select {
 form input:focus,
 form select:focus {
   box-shadow: 5px 5px 5px rgba(253, 242, 233, 0.5);
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 9.6rem;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  width: 35%;
+  margin-bottom: 3.6rem;
+}
+.footer-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #7f7f7f;
+}
+
+.Copyright {
+  margin-top: auto;
+  font-weight: 500;
+  color: #7f7f7f;
+  font-size: 1.4rem;
+}
+
+.footer-headline {
+  font-weight: 600;
+  color: #666;
+  font-size: 1.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.footer-ul-list li {
+  margin-bottom: 1.8rem;
+}
+
+.footer-list:link,
+.footer-list:visited {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-size: 1.4rem;
+}
+
+.footer-list:hover,
+.footer-list:active {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-size: 1.4rem;
+}
+
+address {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.adress {
+  margin-bottom: 2.4rem;
+}
+
+.adress {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-size: 1.4rem;
+}
+
+.contacts {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-size: 1.4rem;
 }
