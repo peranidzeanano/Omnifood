@@ -20,16 +20,22 @@
     <header class="navigation">
       <img src="img/omnifood-logo.png" alt="omnifood logo" class="logo" />
 
-      <nav>
+      <nav class="header-list">
         <ul class="navigation-list-ul">
-          <li><a href="#">section1</a></li>
-          <li><a href="#">section2</a></li>
-          <li><a href="#">section3</a></li>
-          <li><a href="#">section4</a></li>
-          <li><a class="last-ul-li" href="#">section5</a></li>
+          <li><a href="#">how-it-works</a></li>
+          <li><a href="#">Meals</a></li>
+          <li><a href="#">Testemonial</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a class="last-ul-li" href="#">Try-for-free</a></li>
         </ul>
       </nav>
+
+      <button class="nav-maniu-btn">
+        <ion-icon class="nav-maniu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="nav-maniu-icon" name="close-outline"></ion-icon>
+      </button>
     </header>
+
     <main>
       <section class="hero-section">
         <div class="conteiner hero">
@@ -584,5 +590,18 @@
         </nav>
       </div>
     </footer>
+
+    <script>
+      const items = document.querySelectorAll(".nav-maniu-icon");
+      console.log(items);
+      const arrayItems = Array.from(items);
+      console.log(arrayItems);
+      arrayItems.forEach((item) => {
+        console.log(item);
+        item.addEventListener("click", () => {
+          item.classList.togglea("open");
+        });
+      });
+    </script>
   </body>
 </html>
