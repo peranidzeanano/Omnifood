@@ -963,6 +963,18 @@ address {
   }
 }
 
+@media (max-width: 42em) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 5px;
+  }
+}
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
