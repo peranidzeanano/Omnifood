@@ -543,11 +543,12 @@
             </li>
           </ul>
           <p class="Copyright">
-            Copyright © 2027 by Omnifood, Inc. All rights reserved
+            Copyright © <span class="year">2027</span> by Omnifood, Inc. All
+            rights reserved
           </p>
         </div>
 
-        <div>
+        <div class="addres-box">
           <p class="footer-headline">contact us</p>
           <address>
             <p class="adress">
@@ -591,17 +592,6 @@
       </div>
     </footer>
 
-    <script>
-      const items = document.querySelectorAll(".nav-maniu-icon");
-      console.log(items);
-      const arrayItems = Array.from(items);
-      console.log(arrayItems);
-      arrayItems.forEach((item) => {
-        console.log(item);
-        item.addEventListener("click", () => {
-          item.classList.togglea("open");
-        });
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

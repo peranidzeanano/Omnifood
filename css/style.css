@@ -951,9 +951,9 @@ address {
     width: 90%;
   }
 
-  .taxes {
+  /* .taxes {
     font-size: 1.8rem;
-  }
+  } */
 
   form {
     grid-template-columns: 1fr;
@@ -970,13 +970,46 @@ address {
 
 @media (max-width: 42em) {
   html {
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 
 @media (max-width: 25em) {
-  html {
-    font-size: 5px;
+  .grid-2-cl,
+  .grid-3-cl,
+  .grid-4-cl {
+    grid-template-columns: 1fr;
+  }
+  .img-box:nth-child(3) {
+    grid-row: 1;
+  }
+  .img-box:nth-child(6) {
+    grid-row: 5;
+  }
+  /* .ul-list {
+    justify-self: center;
+  } */
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img {
+    height: 250px;
+    grid-row: 1;
+  }
+  .grid-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-nav {
+    grid-row: 1;
+  }
+  .plan {
+    width: 100%;
+  }
+  .taxes {
+    line-height: 1px;
   }
 }
 
