@@ -972,9 +972,7 @@ address {
   html {
     font-size: 6px;
   }
-}
 
-@media (max-width: 25em) {
   .grid-2-cl,
   .grid-3-cl,
   .grid-4-cl {
